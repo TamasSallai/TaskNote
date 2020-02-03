@@ -1,0 +1,42 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.login-text{
+    color: #666667;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.login-btn{
+    background-color: #828AE6;
+    color:white;
+    border:1px solid #828AE6;
+    border-radius: 14px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    color: white;
+    opacity: 1;
+}
+
+.signup-btn{
+    background: white;
+    border-radius: 14px;
+    border: 1px solid #b5b5b5;
+    color:#666667;
+}
+
+.signup-btn:hover{
+    background-color: #828AE6;
+    color: white;
+    border-color: #828AE6;
+    
+
+}

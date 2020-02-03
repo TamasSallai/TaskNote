@@ -1,0 +1,24 @@
+{% extends 'layout.html'%}
+
+{% block content %}
+<div class="text-center">
+
+  <form class="form-signin">
+    <img src="/static/img/main_logo.png" alt="login_logo" alt width="100" height="100">
+    <h1 class="mb-3 font-weigth-normal login-text">Please sign in</h1>
+    <div class="form-group">
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email address" required>
+    </div>
+
+    <div class="form-group">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+    </div>
+
+    <button type="submit" class="btn btn-lg btn-block login-btn">Login</button>
+    <button type="button" class="btn btn-lg btn-primary btn-block signup-btn">Sign up</button>
+
+  </form>
+</div>
+{% endblock %}
